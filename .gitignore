@@ -1,0 +1,13 @@
+# 1. Node.js dependencies (The biggest folder — never push this!)
+node_modules/
+
+# 2. Operating system specific files
+.DS_Store
+Thumbs.db
+
+# 3. Environment or secret keys (if you ever use them later)
+.env
+*.log
+
+# 4. Jest test coverage reports (generated automatically when testing)
+coverage/
